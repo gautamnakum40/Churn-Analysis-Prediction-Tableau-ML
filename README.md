@@ -4,9 +4,9 @@
 
 Customer churn is a critical issue for businesses, and analyzing churn patterns helps in developing retention strategies. This project consists of two key parts:
 
-1️⃣ Churn Analysis: Utilizing Tableau dashboards to explore customer behavior, identify key factors contributing to churn, and visualize trends that impact customer retention.
+1️⃣ **Churn Analysis** : Utilizing Tableau dashboards to explore customer behavior, identify key factors contributing to churn, and visualize trends that impact customer retention.
 
-2️⃣ Churn Prediction: Implementing a Machine Learning model (LightGBM) to classify customers as potential churners, predict churn probability, and evaluate model accuracy using real customer data.
+2️⃣ **Churn Prediction** : Implementing a Machine Learning model (LightGBM) to classify customers as potential churners, predict churn probability, and evaluate model accuracy using real customer data.
 
 ## Objectives
 
@@ -51,6 +51,47 @@ Customer churn is a critical issue for businesses, and analyzing churn patterns 
 
 ### Exploratory Data Analysis (EDA)
 
-#### Dataset
+#### Dataset : 
    - The [Databel dataset](https://github.com/gautamnakum40/Churn-Analysis-Prediction-Tableau-ML/blob/master/Churn%20Prediction%20Analysis/predicted_dataset.csv) consists of 29 columns and 6687 records.
+
+#### Decriptive Statistics 
+
+**Insights** :
+
+**1. The churn rate of Databel is 26.86%**
+
+**2. Churn Category Reason** :
+
+Almost half of all customer churning are related to ```the competitor category (44.82%).```
+
+![Churn Category Reason](https://github.com/gautamnakum40/Churn-Analysis-Prediction-Tableau-ML/blob/master/Plots/Churn%20Category%20Reason.png)
+
+**3. Churn Reason** :
+
+Top 5 reasons of churn customer in Databel :
+   - Competitor made better offer (29.25%)
+   - Competitor had better devices
+   - Attitude of support person
+   - Don't know
+   - Competitor offered more data
+
+![Churn Reason](https://github.com/gautamnakum40/Churn-Analysis-Prediction-Tableau-ML/blob/master/Plots/Churn%20Reason.png)
+
+**4. Geomap** :
+
+The churn rate in California (CA) is the highest (63.24%).
+
+![Geomap](https://github.com/gautamnakum40/Churn-Analysis-Prediction-Tableau-ML/blob/master/Plots/Geomap.png)
+ 
+**5. Demographics** :
+
+Churn rate for Senior group is 10% higher than average (38.22%).
+
+![Demographics](https://github.com/gautamnakum40/Churn-Analysis-Prediction-Tableau-ML/blob/master/Plots/Demographics.png)
+
+**6. Age Group** :
+
+The age group of 80-85 year old have the highest churn rates (52%) but they contain the least of people (only 25 customers).
+
+![Age Group](https://github.com/gautamnakum40/Churn-Analysis-Prediction-Tableau-ML/blob/master/Plots/Age%20Group%20vs%20Number%20of%20Customers.png)
 
