@@ -109,11 +109,14 @@ Here Extra International Charges ```$33.64``` have higher Churn Rate than Extra 
 
 **9.  International Plan** :
 
-Customers who an International Plan but do not actively make international calls have the highest churn rate (71.19 but fortunately, the number of customers in this group is the lowest (177 customers). In this group, there appears to be the highest average monthly charge ($33.12).
+Customers who have ```International Plan``` but do not actively make international calls have the highest churn rate (```71.19``` but fortunately, the number of customers in this group is the lowest (```177 customers```). In this group, there appears to be the highest average monthly charge (```$33.12```).
 
 ![International Plan](https://github.com/gautamnakum40/Churn-Analysis-Prediction-Tableau-ML/blob/master/Plots/International%20Plan.png)
 
+**10. Contract Type & Payment method** :
 
+Out of 1796 churned customers, 1141 of them have an average monthly charge of ```$18.75```, with a contract type of ```Month to Month``` and a payment method of ```Direct Debit```. This is a significant number, so DataBel needs to focus on this customer group.
 
+![Contract Type & Payment method](https://github.com/gautamnakum40/Churn-Analysis-Prediction-Tableau-ML/blob/master/Plots/Contract%20Type%20%26%20Payment%20method.png)
 
 
