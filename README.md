@@ -252,3 +252,53 @@ print("Accuracy:", accuracy_score(y_test, y_pred_test))
 print("Confusion Matrix:\n", confusion_matrix(y_test, y_pred_test))
 print("Classification Report:\n", classification_report(y_test, y_pred_test))
 ```
+
+## Exploratory Data Analysis (EDA) :--
+
+### Tableau Prediction Analysis 
+
+After Using the LightGBM Model Evaluation, I did further analysis for the predicted data by the model in Tableau. we stored our model result data in [predicted data](https://github.com/gautamnakum40/Churn-Analysis-Prediction-Tableau-ML/blob/master/Churn%20Prediction%20Analysis/predicted_dataset.csv).
+
+**1. Probability Distribution:**
+
+The overlapping histogram with more data towards the edges indicates the probabilities predicted gave us definative results.
+
+![Probability Distribution](https://github.com/gautamnakum40/Churn-Analysis-Prediction-Tableau-ML/blob/master/Plots/Probability%20Distribution.png)
+
+**2. High-Risk Segments:**
+
+High-risk segments such as customer service calls and international plan from different states effects the median prediction probabilities of churn.
+
+![High-Risk Segments](https://github.com/gautamnakum40/Churn-Analysis-Prediction-Tableau-ML/blob/master/Plots/High-Risk%20Segments.png)
+
+**3. Actual and predicted Churn:**
+
+Analyzed actual and predicted churn which has less values in the middle indicating good modelling.
+
+![Actual and predicted Churn](https://github.com/gautamnakum40/Churn-Analysis-Prediction-Tableau-ML/blob/master/Plots/Actual%20and%20predicted%20Churn.png)
+
+
+## Business Insights & Recommendation :
+
+### Insights : 
+  - **High Churn in High Usage Customers:**
+    > Customers with high day charges and frequent service calls are at a higher risk of churn, indicating dissatisfaction potentially due to billing or service issues.
+    
+  - **Regional Variations:**
+    > Certain states with higher churn rates may require localized customer retention strategies.
+    
+  - **International Plan Sensitivity:**
+    >Customers with international plans are more likely to churn, suggesting a need to reevaluate the pricing or quality of international services.
+
+###  Recommendation :  
+
+   - **Improve Customer Service:**
+     >Focus on reducing the number of customer service calls by enhancing first-call resolution and proactively addressing common issues.
+   
+   - **Reassess International Plan Offerings:**
+     >Consider revising international plans to make them more competitive and aligned with customer expectations.
+
+   - **Targeted Retention Strategies:**
+      > Use the model's predictions to identify high-risk customers and implement targeted retention campaigns, such as personalized offers or discounts for heavy day-time users.
+
+
