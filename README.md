@@ -167,5 +167,88 @@ Out of 1796 churned customers, 1141 of them have an average monthly charge of ``
 
    - ***Algorithm:** ```LightGBM``` outperforms Other Models by providing higher accuracy and better recall for churn cases while training faster and handling categorical data more efficiently. It also naturally deals with imbalanced data, making it a great choice for telecom churn prediction.
    - **Training:** The model was trained on the [Databel dataset](https://github.com/gautamnakum40/Churn-Analysis-Prediction-Tableau-ML/blob/master/Churn%20Prediction%20Analysis/predicted_dataset.csv).
-   
 
+**[LightGBM Model](https://github.com/gautamnakum40/Churn-Analysis-Prediction-Tableau-ML/blob/master/Churn%20Prediction%20Analysis/lightbgm%20model.ipynb)** :
+   
+**Code Snippet:** 
+
+```python
+# Install Required Libraries
+
+!pip install lightgbm   # for lightgbm model
+
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+from sklearn.model_selection import train_test_split
+from lightgbm import LGBMClassifier
+from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
+
+
+### Load and process the Data
+
+data = pd.read_csv('Databel - Data.csv')
+
+# convert object columns to categorical types
+data['State'] = data['State'].astype('category')
+data['Churn Category'] = data['Churn Category'].astype('category')
+data['Churn Reason'] = data['Churn Reason'].astype('category')
+
+# encodeing categorical variables except 'Churn Category' and 'Churn Reason'
+categorical_cols = ['Intl Plan', 'Intl Active', 'Unlimited Data Plan', 'Gender', 'Under 30', 'Senior',
+                    'Group', 'Device Protection & Online Backup', 'Contract Type', 'Payment Method', 'Churn']
+for col in categorical_cols:
+    if col in data.columns:
+        data[col] = data[col].astype('category')
+
+# separate 'Churn Category' and 'Churn Reason' before training
+churn_info = data[['Churn Category', 'Churn Reason']]
+data = data.drop(columns=['Churn Category', 'Churn Reason'])
+
+# define features and target variable
+X = data.drop(['Churn', 'Customer ID', 'Phone Number'], axis=1)
+y = data['Churn'].map({'No': 0, 'Yes': 1})
+
+# split the data into training and testing sets
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42, stratify=y)
+
+# Initialize the LightGBM classifier with optimized parameters
+model = LGBMClassifier(
+    boosting_type='gbdt', learning_rate=0.1, n_estimators=200, max_depth=5, subsample=0.8, colsample_bytree=0.8
+)
+
+
+### Train the XGBoost Model
+
+# Train the model
+model.fit(X_train, y_train)
+
+# Predict on the test dataset
+y_pred_test = model.predict(X_test)
+y_pred_proba_test = model.predict_proba(X_test)
+
+
+### Make Predictions
+
+# add predictions to the test dataset
+test_results = X_test.copy()
+test_results['Actual_Churn'] = y_test.values
+test_results['Predicted_Churn'] = y_pred_test
+test_results['False_Prediction_Probability'] = y_pred_proba_test[:, 0]
+test_results['True_Prediction_Probability'] = y_pred_proba_test[:, 1]
+
+# reattach 'Churn Category' and 'Churn Reason'
+test_results = test_results.merge(churn_info, left_index=True, right_index=True)
+
+# save the test dataset with results
+test_results.to_csv('predicted_dataset.csv', index=False)
+
+
+### accuracy_score, Classification_report
+
+# evaluate the model
+print("Accuracy:", accuracy_score(y_test, y_pred_test))
+print("Confusion Matrix:\n", confusion_matrix(y_test, y_pred_test))
+print("Classification Report:\n", classification_report(y_test, y_pred_test))
+```
