@@ -122,5 +122,23 @@ Out of 1796 churned customers, 1141 of them have an average monthly charge of ``
 #### 1. The churn rate for customers who pay for an international plan, but don't call internationally is skyhigh.
 > Suggest: Databel should develop more attractive and tailored offerings that meet customer needs, making them more appealing than those of competitors in terms of pricing and packages. Additionally, Databel's devices should be more advanced than those of its competitors. Furthermore, the support staff should receive training to ensure they provide high levels of customer satisfaction, particularly for the senior group.
 
-#### 
+#### 2. The highest reason for customer churn in Databel is that competitors made better offers, accounting for 29.25% of the churn.
+> Suggest: Databel should develop more attractive and tailored offerings that meet customer needs, making them more appealing than those of competitors in terms of pricing and packages. Additionally, Databel's devices should be more advanced than those of its competitors. Furthermore, the support staff should receive training to ensure they provide high levels of customer satisfaction, particularly for the senior group.
 
+#### 3. Customers who an International Plan but do not actively make international calls have the highest churn rate.
+>Suggest: Contact customers with an International Plan who have not actively made international calls for a certain period to offer them a switch to a normal package or provide a monthly discount below $30 or below any competitors. This can help lower their average monthly charge, making it more competitive and reducing the churn rate.
+
+#### 4. Customers who have an unlimited plan but do not consume more than 5GB per month tends to churn more.
+>Suggest: Databel should contact customers to offer attractive pricing and other benefits that are more appealing compared to competitors.
+
+#### 5. The overall churn rate for customers in a group is lower than for those who are not in a group. This is partly because the average monthly charge for customers in a group is relatively low compared to those not in a group.
+>Suggest: Databel should contact customers to promote group plans, highlighting the lower average monthly charges. Additionally, offer special discounts or incentives for customers to switch from individual plans to group plans. This approach can help reduce churn by making the service more affordable and appealing.
+
+#### 6. Senior customers have a churn rate 10% higher than average.
+>Suggest: Databel should implement simplified billing, dedicated support channels, special pricing, and loyalty rewards for senior customers. Personalized assistance and educational initiatives can help seniors feel more confident and satisfied with the service. Specifically, for the 80-85 age group, Databel should provide enhanced customer service, including priority service, in-home assistance, and health-related
+
+#### 7. California is a state in the western United States that has the highest churn rate.
+>Suggest: Databel should contact customers in California through campaigns to offer more attractive options, such as a lower average monthly charge and devices that are more advanced than those of competitors
+
+#### 8. The 63% customer churned were on a Month to Month contract with Direct Debit payment.
+>Suggest: Databel should contact customers through direct calls or campaigns via email/messages to offer a more attractive monthly charge for the Month to Month plan, such as below $18 or lower than any competitors, and propose payment options via credit card. Databel can also offer a more affordable annual package for customer that switch from Month to Month to an annual plan.
