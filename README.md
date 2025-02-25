@@ -2,12 +2,11 @@
 
 ## Overview
 
-Customer churn is a critical issue for businesses, and analyzing churn patterns helps in developing retention strategies. This project involves:
-   - Exploratory Data Analysis (EDA) in Tableau to understand customer behavior.
-   - Visualization of churn trends using dashboards.
-   - Predictive modeling using LightGBM to classify customers as churned or non-churned.
-   - Evaluation of the ML model with accuracy, precision, recall, and F1-score.
-   - Comparison of actual vs. predicted churn using Tableau dashboards.
+Customer churn is a critical issue for businesses, and analyzing churn patterns helps in developing retention strategies. This project consists of two key parts:
+
+1️⃣ Churn Analysis: Utilizing Tableau dashboards to explore customer behavior, identify key factors contributing to churn, and visualize trends that impact customer retention.
+
+2️⃣ Churn Prediction: Implementing a Machine Learning model (LightGBM) to classify customers as potential churners, predict churn probability, and evaluate model accuracy using real customer data.
 
 ## Objectives
 
@@ -32,4 +31,26 @@ Customer churn is a critical issue for businesses, and analyzing churn patterns 
   - Model Evaluation – Analyzing model accuracy & performance.
   - Business Understanding – Applying data insights for decision-making.
 
+## Part 1 : Churn Analysis
+
+### Business Understanding
+
+#### Problem Statement : 
+   -  Databel, a telecom provider, is experiencing customer churn where users terminate their services and switch to competitors. As a Data Consultant, my task is to investigate the root causes behind customer churn and provide actionable insights. This analysis will help Databel reduce churn rates, enhance customer satisfaction, and strengthen its market position.
+
+#### Goal :
+   -  Reduce Churn Rates: Implement data-driven strategies to decrease the number of customers leaving Databel. Success in this goal will contribute to increased customer retention, improved revenue stability, and a stronger competitive position in the telecom market.
+
+#### Objectives :
+   - **Identify Key Drivers Behind Customer Churn**: Analyze customer data to pinpoint the primary factors contributing to churn.
+   - **Segment Customer Profiles**: Classify customers according to their churn risk to understand which segments are most likely to leave the service.
+   - **Provide Data-Driven Recommendations**: Develop actionable insights and strategies to help Databel reduce customer churn and improve customer retention rates.
+
+#### Business Metrics :
+   - **Churn Rate**
+
+### Exploratory Data Analysis (EDA)
+
+#### Dataset
+   - The [Databel dataset](https://github.com/gautamnakum40/Churn-Analysis-Prediction-Tableau-ML/blob/master/Churn%20Prediction%20Analysis/predicted_dataset.csv) consists of 29 columns and 6687 records.
 
