@@ -29,16 +29,17 @@ Customer churn is a critical issue for businesses, and analyzing churn patterns 
   - Machine Learning – Implementing a churn prediction model.
   - Feature Engineering – Selecting key variables for ML.
   - Model Evaluation – Analyzing model accuracy & performance.
+  - Data Cleaning - Handled missing values and ensured consistency in data types across all attributes.
   - Business Understanding – Applying data insights for decision-making.
 
-## Part 1 : Churn Analysis
+## Part 1️⃣ : Churn Analysis
 
 ### Business Understanding :--
 
 #### Problem Statement : 
    -  Databel, a telecom provider, is experiencing customer churn where users terminate their services and switch to competitors. As a Data Consultant, my task is to investigate the root causes behind customer churn and provide actionable insights. This analysis will help Databel reduce churn rates, enhance customer satisfaction, and strengthen its market position.
 
-#### Goal :
+#### Project Goal :
    -  Reduce Churn Rates: Implement data-driven strategies to decrease the number of customers leaving Databel. Success in this goal will contribute to increased customer retention, improved revenue stability, and a stronger competitive position in the telecom market.
 
 #### Objectives :
@@ -142,3 +143,29 @@ Out of 1796 churned customers, 1141 of them have an average monthly charge of ``
 
 #### 8. The 63% customer churned were on a Month to Month contract with Direct Debit payment.
 >Suggest: Databel should contact customers through direct calls or campaigns via email/messages to offer a more attractive monthly charge for the Month to Month plan, such as below $18 or lower than any competitors, and propose payment options via credit card. Databel can also offer a more affordable annual package for customer that switch from Month to Month to an annual plan.
+
+## Part 2️⃣ : Churn Prediction
+
+### Business Understanding :--
+
+#### Problem Statement :
+   - The goal is to develop a predictive model that accurately identifies customers who are likely to churn based on historical data. This will enable the business to take data-driven actions to prevent churn and improve customer retention rates.
+
+#### Project Goal :
+   - To build a Machine Learning model that predicts the likelihood of customer churn based on key factors such as customer behavior, service usage, contract details, and charges, allowing the business to intervene and retain valuable customers.
+
+#### Objectives :
+   - Develop a **Machine Learning model (LightGBM)** to predict churn probability.
+   - Identify the **Most influential factors** that contribute to customer churn.
+   - Evaluate model performance using **accuracy, precision, recall, and F1-score.**
+   - Compare **actual vs. predicted churn** to assess the effectiveness of the model.
+   - Provide actionable insights for **customer retention strategies.**
+
+### LightGBM Model Evaluation :--
+
+#### Model Selection and Training :--
+
+   - ***Algorithm:** ```LightGBM``` outperforms Other Models by providing higher accuracy and better recall for churn cases while training faster and handling categorical data more efficiently. It also naturally deals with imbalanced data, making it a great choice for telecom churn prediction.
+   - **Training:** The model was trained on the [Databel dataset](https://github.com/gautamnakum40/Churn-Analysis-Prediction-Tableau-ML/blob/master/Churn%20Prediction%20Analysis/predicted_dataset.csv).
+   
+
