@@ -50,7 +50,7 @@ Customer churn is a critical issue for businesses, and analyzing churn patterns 
 ## Exploratory Data Analysis (EDA) :--
 
 #### Dataset : 
-   - The [Databel dataset](https://github.com/gautamnakum40/Churn-Analysis-Prediction-Tableau-ML/blob/master/Churn%20Prediction%20Analysis/predicted_dataset.csv) consists of 29 columns and 6687 records.
+   - The [Databel dataset](https://github.com/gautamnakum40/Churn-Analysis-Prediction-Tableau-ML/blob/master/Churn%20Analysis/Databel%20-%20Data.csv) consists of 29 columns and 6687 records.
 
 ### Decriptive Statistics 
 
