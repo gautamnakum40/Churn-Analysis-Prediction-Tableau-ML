@@ -79,19 +79,41 @@ Top 5 reasons of churn customer in Databel :
 
 **4. Geomap** :
 
-The churn rate in California (CA) is the highest (63.24%).
+The churn rate in ```California (CA)``` is the highest ```(63.24%)```.
 
 ![Geomap](https://github.com/gautamnakum40/Churn-Analysis-Prediction-Tableau-ML/blob/master/Plots/Geomap.png)
  
 **5. Demographics** :
 
-Churn rate for Senior group is 10% higher than average (38.22%).
+Churn rate for ```Senior group``` is 10% higher than average ```(38.22%)```.
 
 ![Demographics](https://github.com/gautamnakum40/Churn-Analysis-Prediction-Tableau-ML/blob/master/Plots/Demographics.png)
 
 **6. Age Group** :
 
-The age group of 80-85 year old have the highest churn rates (52%) but they contain the least of people (only 25 customers).
+The age group of 80-85 year old have the highest churn rates ```(52%)``` but they contain the least of people ```(only 25 customers)```.
 
 ![Age Group](https://github.com/gautamnakum40/Churn-Analysis-Prediction-Tableau-ML/blob/master/Plots/Age%20Group%20vs%20Number%20of%20Customers.png)
+
+**7. Churn Rate by Group of Customer** :
+
+The lowest churn rate ```(5.6%)``` is a customer group consisting of 6 people and conversely, the highest churn rate ```(32.85%)``` is for customers who are ```Not in a Group.```
+
+![Group of Customer](https://github.com/gautamnakum40/Churn-Analysis-Prediction-Tableau-ML/blob/master/Plots/Churn%20Rate%20by%20Group%20of%20Custome.png)
+
+**8. Extra Charge Vs Churn Rate** :
+
+Here Extra International Charges ```$33.64``` have higher Churn Rate than Extra Data Charges.
+
+![Extra Charge Vs Churn Rate](https://github.com/gautamnakum40/Churn-Analysis-Prediction-Tableau-ML/blob/master/Plots/Data%20Plan.png)
+
+**9.  International Plan** :
+
+Customers who an International Plan but do not actively make international calls have the highest churn rate (71.19 but fortunately, the number of customers in this group is the lowest (177 customers). In this group, there appears to be the highest average monthly charge ($33.12).
+
+![International Plan](https://github.com/gautamnakum40/Churn-Analysis-Prediction-Tableau-ML/blob/master/Plots/International%20Plan.png)
+
+
+
+
 
