@@ -33,7 +33,7 @@ Customer churn is a critical issue for businesses, and analyzing churn patterns 
 
 ## Part 1 : Churn Analysis
 
-### Business Understanding
+### Business Understanding :--
 
 #### Problem Statement : 
    -  Databel, a telecom provider, is experiencing customer churn where users terminate their services and switch to competitors. As a Data Consultant, my task is to investigate the root causes behind customer churn and provide actionable insights. This analysis will help Databel reduce churn rates, enhance customer satisfaction, and strengthen its market position.
@@ -42,19 +42,16 @@ Customer churn is a critical issue for businesses, and analyzing churn patterns 
    -  Reduce Churn Rates: Implement data-driven strategies to decrease the number of customers leaving Databel. Success in this goal will contribute to increased customer retention, improved revenue stability, and a stronger competitive position in the telecom market.
 
 #### Objectives :
-   - **Identify Key Drivers Behind Customer Churn**: Analyze customer data to pinpoint the primary factors contributing to churn.
-   - **Segment Customer Profiles**: Classify customers according to their churn risk to understand which segments are most likely to leave the service.
-   - **Provide Data-Driven Recommendations**: Develop actionable insights and strategies to help Databel reduce customer churn and improve customer retention rates.
+   - **Identify Key Drivers Behind Customer Churn** :  Analyze customer data to pinpoint the primary factors contributing to churn.
+   - **Segment Customer Profiles** :  Classify customers according to their churn risk to understand which segments are most likely to leave the service.
+   - **Provide Data-Driven Recommendations** :  Develop actionable insights and strategies to help Databel reduce customer churn and improve customer retention rates.
 
-#### Business Metrics :
-   - **Churn Rate**
-
-### Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA) :--
 
 #### Dataset : 
    - The [Databel dataset](https://github.com/gautamnakum40/Churn-Analysis-Prediction-Tableau-ML/blob/master/Churn%20Prediction%20Analysis/predicted_dataset.csv) consists of 29 columns and 6687 records.
 
-#### Decriptive Statistics 
+### Decriptive Statistics 
 
 **Insights** :
 
@@ -119,4 +116,11 @@ Out of 1796 churned customers, 1141 of them have an average monthly charge of ``
 
 ![Contract Type & Payment method](https://github.com/gautamnakum40/Churn-Analysis-Prediction-Tableau-ML/blob/master/Plots/Contract%20Type%20%26%20Payment%20method.png)
 
+
+## Business Insights & Recommendation :
+
+#### 1. The churn rate for customers who pay for an international plan, but don't call internationally is skyhigh.
+> Suggest: Databel should develop more attractive and tailored offerings that meet customer needs, making them more appealing than those of competitors in terms of pricing and packages. Additionally, Databel's devices should be more advanced than those of its competitors. Furthermore, the support staff should receive training to ensure they provide high levels of customer satisfaction, particularly for the senior group.
+
+#### 
 
