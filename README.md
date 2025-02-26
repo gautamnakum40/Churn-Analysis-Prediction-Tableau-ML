@@ -50,6 +50,7 @@ Customer churn is a critical issue for businesses, and analyzing churn patterns 
 ## Exploratory Data Analysis (EDA) :--
 
 #### Dataset : 
+   - This dataset, provided by Databel Telecom, is available for download on [Kaggle](https://www.kaggle.com/datasets/yichienchong/databel-telecom-customer-churn-dataset).
    - The [Databel dataset](https://github.com/gautamnakum40/Churn-Analysis-Prediction-Tableau-ML/blob/master/Churn%20Analysis/Databel%20-%20Data.csv) consists of 29 columns and 6687 records.
 
 ### Decriptive Statistics 
