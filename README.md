@@ -4,11 +4,11 @@
 
 Customer churn is a critical issue for businesses, and analyzing churn patterns helps in developing retention strategies. This project consists of two key parts:
 
-1️⃣ **Churn Analysis** : Utilizing Tableau dashboards to explore customer behavior, identify key factors contributing to churn, and visualize trends that impact customer retention. Tableau workbook [Link](https://public.tableau.com/app/profile/gautam.nakum/viz/ChurnAnalysis_17404867900170/ChurnAnalysis) .
+1️⃣ **Churn Analysis** : Utilizing Tableau dashboards to explore customer behavior, identify key factors contributing to churn, and visualize trends that impact customer retention. Tableau Public [Link](https://public.tableau.com/app/profile/gautam.nakum/viz/ChurnAnalysis_17404867900170/ChurnAnalysis) .
 
 ![churn analysis](https://github.com/gautamnakum40/Churn-Analysis-Prediction-Tableau-ML/blob/master/Plots/Churn%20Analysis.png)
 
-2️⃣ **Churn Prediction** : Implementing a Machine Learning model (LightGBM) to classify customers as potential churners, predict churn probability, and evaluate model accuracy using real customer data. Tableau workbook [Link](https://public.tableau.com/app/profile/gautam.nakum/viz/ChurnPredictionAnalysis/PREDICTIVEANALYTICS)
+2️⃣ **Churn Prediction** : Implementing a Machine Learning model (LightGBM) to classify customers as potential churners, predict churn probability, and evaluate model accuracy using real customer data. Tableau public [Link](https://public.tableau.com/app/profile/gautam.nakum/viz/ChurnPredictionAnalysis/PREDICTIVEANALYTICS)
 
 ![churn prediction](https://github.com/gautamnakum40/Churn-Analysis-Prediction-Tableau-ML/blob/master/Plots/churn%20prediction.png)
 
