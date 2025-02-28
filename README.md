@@ -14,9 +14,9 @@ Customer churn is a critical issue for businesses, and analyzing churn patterns 
 
 ## Objectives
 
-  - Identify Key Drivers Behind Customer Churn: Analyze customer data to pinpoint the primary factors contributing to churn.
-  - Segment Customer Profiles: Classify customers according to their churn risk to understand which segments are most likely to leave the service.
-  - Provide Data-Driven Recommendations: Develop actionable insights and strategies to help Databel reduce customer churn and improve customer retention rates.
+  - **Identify Key Drivers Behind Customer Churn**: Analyze customer data to pinpoint the primary factors contributing to churn.
+  - **Segment Customer Profiles**: Classify customers according to their churn risk to understand which segments are most likely to leave the service.
+  - **Provide Data-Driven Recommendations**: Develop actionable insights and strategies to help Databel reduce customer churn and improve customer retention rates.
 
 ## Tools and Technologies Used
 
@@ -28,13 +28,13 @@ Customer churn is a critical issue for businesses, and analyzing churn patterns 
 
 ## Skills Demonstrated
 
-  - Data Visualization – Tableau dashboards for churn insights.
-  - Exploratory Data Analysis (EDA) – Identifying key churn drivers.
-  - Machine Learning – Implementing a churn prediction model.
-  - Feature Engineering – Selecting key variables for ML.
-  - Model Evaluation – Analyzing model accuracy & performance.
-  - Data Cleaning - Handled missing values and ensured consistency in data types across all attributes.
-  - Business Understanding – Applying data insights for decision-making.
+  - **Data Visualization** – Tableau dashboards for churn insights.
+  - **Exploratory Data Analysis (EDA)** – Identifying key churn drivers.
+  - **Machine Learning** – Implementing a churn prediction model.
+  - **Feature Engineering** – Selecting key variables for ML.
+  - **Model Evaluation** – Analyzing model accuracy & performance.
+  - **Data Cleaning** - Handled missing values and ensured consistency in data types across all attributes.
+  - **Business Understanding** – Applying data insights for decision-making.
 
 ## Part 1️⃣ : Churn Analysis
 
@@ -44,7 +44,7 @@ Customer churn is a critical issue for businesses, and analyzing churn patterns 
    -  Databel, a telecom provider, is experiencing customer churn where users terminate their services and switch to competitors. As a Data Consultant, my task is to investigate the root causes behind customer churn and provide actionable insights. This analysis will help Databel reduce churn rates, enhance customer satisfaction, and strengthen its market position.
 
 #### Project Goal :
-   -  Reduce Churn Rates: Implement data-driven strategies to decrease the number of customers leaving Databel. Success in this goal will contribute to increased customer retention, improved revenue stability, and a stronger competitive position in the telecom market.
+   -  **Reduce Churn Rates**: Implement data-driven strategies to decrease the number of customers leaving Databel. Success in this goal will contribute to increased customer retention, improved revenue stability, and a stronger competitive position in the telecom market.
 
 #### Objectives :
    - **Identify Key Drivers Behind Customer Churn** :  Analyze customer data to pinpoint the primary factors contributing to churn.
